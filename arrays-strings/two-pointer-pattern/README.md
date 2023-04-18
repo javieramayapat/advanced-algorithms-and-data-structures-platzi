@@ -18,3 +18,7 @@
 ## ¿Cómo colocar los apuntadores?
 
 - Puedo tener 1 apuntador al inicio y un apuntador al final, esto seria una buena forma para revisar si una palabra es palindromo o no.
+
+## ¿Qúe es el ordenamiento in place?
+Significa ordenando valores moviendo valores haciendo las comparaciones
+sin realmente tener que aplicar un algoritmo de ordenamiento bajando de complejidad O(n log n) a una solucion lineal O(n+m)
