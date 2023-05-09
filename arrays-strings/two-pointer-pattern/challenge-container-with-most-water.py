@@ -12,7 +12,9 @@ def max_area(height):
     left_pointer, right_pointer = 0, len(height) - 1
 
     while left_pointer < right_pointer:  # T = O(n)
-        area = (right_pointer - left_pointer) * min(height[right_pointer], height[left_pointer])
+        area = (right_pointer - left_pointer) * min(
+            height[right_pointer], height[left_pointer]
+        )
         max_area = max(max_area, area)
         if height[right_pointer] >= height[left_pointer]:
             left_pointer += 1
@@ -22,7 +24,7 @@ def max_area(height):
     return max_area
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     input1 = [1, 8, 6, 2, 5, 4, 8, 3, 7]
     output1 = 49
 
